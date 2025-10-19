@@ -1,5 +1,22 @@
-Perfect — now we’re getting into the **core data that can feed your model** 🔍
+🧠 1. url
 
+The main address being tested.
+
+Useful features:
+
+URL length
+
+Number of special characters (-, _, @, etc.)
+
+Suspicious words (like “login”, “secure”, “update”)
+
+Count of subdomains
+
+Whether it uses HTTPS
+
+💡 This is the most direct and important source of features for classic phishing classification.
+Perfect — now we’re getting into the **core data that can feed your model** 🔍
+2. host info section
 The `host_info` section is full of **network-level and security metadata**, and this is exactly where real-world phishing classifiers get a lot of predictive power.
 Let’s carefully unpack what each part means and how to turn it into **machine-learning-ready features**.
 
