@@ -16,8 +16,8 @@ Notebooks responsible for parsing raw data and generating numerical features.
 ### 2. Base Model Training
 Notebooks for training and evaluating individual classifiers for each domain.
 * **`html_classification.ipynb`**: Trains and evaluates models (Random Forest, XGBoost, etc.) specifically on the extracted HTML features.
-* **`url_dns_ssl_classification.ipynb`** *(if applicable)*: Training pipeline for the URL-based model.
-* **`content_classification.ipynb`** *(if applicable)*: Training pipeline for the Content-based model.
+* **`url_dns_ssl_classification.ipynb`** : feature engineering and training pipeline for the URL-based model.
+* **`content_classification.ipynb`** : feature engineering and training pipeline for the Content-based model.
 
 ### 3. Stacking & Meta-Learning
 The final ensemble model that combines the predictions of the base models.
