@@ -24,4 +24,5 @@ The final ensemble model that combines the predictions of the base models.
 * **`meta_learner.ipynb`**: Implements the Stacking Ensemble. It loads the pre-trained base models, generates Out-of-Fold (OOF) predictions, and trains the Meta-Learner (Logistic Regression) to make the final prediction.
 
 ### 4. Data
-* **`dataset/`**.
+* **`datasets/`**. contains the datasets extracted using the extractors notebooks.
+To use those datasets in training and feature engineering please change their corresponding paths in the notebook.
