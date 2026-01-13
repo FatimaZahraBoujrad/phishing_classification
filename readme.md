@@ -25,4 +25,4 @@ The final ensemble model that combines the predictions of the base models.
 
 ### 4. Data
 * **`datasets/`**. contains the datasets extracted using the extractors notebooks.
-To use those datasets in training and feature engineering please change their corresponding paths in the notebook.
+To use those datasets for training and feature engineering please change their corresponding paths in the notebook.
